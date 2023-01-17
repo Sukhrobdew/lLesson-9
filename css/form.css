@@ -1,0 +1,128 @@
+.email label {
+  display: block;
+  margin-left: 40px;
+}
+.email input {
+  margin: 8px 40px 24px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 416px;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.phone label {
+  display: block;
+  margin-left: 40px;
+}
+.phone input {
+  margin: 8px 40px 24px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 416px;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.nation {
+  display: flex;
+  gap: 16px;
+}
+
+.nation label {
+  display: block;
+  margin-left: 40px;
+}
+.country select {
+  display: flex;
+  margin-left: 40px;
+  padding-left: 10px;
+  margin-top: 8px;
+  gap: 10px;
+  width: 200px;
+  height: 48px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+
+.city input {
+  margin-top: 8px;
+  width: 200px;
+  height: 48px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.city label {
+  margin-left: 0;
+}
+
+.pass label {
+  display: block;
+  margin: 18px 0 8px 40px;
+}
+.pass input {
+  margin: 0px 40px 24px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 416px;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.pass img {
+  position: relative;
+  left: 420px;
+  bottom: 54px;
+  width: 19.93px;
+  height: 13.21px;
+}
+
+.confirm  label{
+  display: block;
+  margin-left: 40px;
+  margin-top: -20px;
+  margin-bottom: 8px;
+}
+
+.confirm input {
+  margin-left: 40px;
+  margin-bottom: 87px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 416px;
+  height: 48px;
+  border: 1px solid red;
+  border-radius: 6px;
+}
+.reg input {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  width: 416px;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: #01BAB3;
+  color: white;
+}
+
+.footer {
+  margin: 25px 500px 60px;
+  Width: 366.7px;
+  height: 46.92px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #778699;
+}
+
+

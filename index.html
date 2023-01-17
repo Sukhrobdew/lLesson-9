@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./html/form.html">
+    <link rel="stylesheet" href="./html/login.html">
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="box-1">
+          <div class="foo1">
+            <img src="./images/logo.png" alt="Logo" />
+            <h1>trend</h1>
+          </div>
+          <div class="foo2">
+            <ul>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contacts</li>
+              <li><button><a href="./html/reg.html">Log in</a></button></li>
+              <li><button><a href="./html/form.html">Open an account</a></button></li>
+              <li><button class="btn">EN</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form action="#">
+          <fieldset>
+            
+            <div class="foo">
+              <img src="./images/logo.png" alt="" />
+              <h1>trend</h1>
+            </div>
+            <div class="account">
+                <h1>Welcome to ByTrend!</h1>
+                <a>Already have an account?</a>
+                <a class="log" href="./html/reg.html">Log in</a>
+            </div>
+            <div class="first-box">
+              <div class="bar">
+                <label for="username">First name *</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="First name"
+                  required
+                  id="username"
+                />
+              </div>
+              <div class="bar1">
+                <label for="surname">Your surname *</label>
+                <input type="text" required placeholder="Your surname" />
+              </div>
+            </div>
+            <div class="date">
+              <label for="birth date">Birth date*</label>
+              <input type="date" id="birth date" name="birthday" required/>
+            </div>
+            <div class="l-f"><label for="gender">Gender*</label></div>
+            <div class="gender">
+              <div class="female">
+                <label for="female">Female</label>
+                <input type="radio" name="male" id="female" />
+              </div>
+              <div class="male">
+                <label for="male">Male</label>
+                <input type="radio" name="male" id="male" required />
+              </div>
+            </div>
+            <div class="skyp">
+              <label for="skype">Skype</label>
+              <input type="text" name="skype" id="skype" placeholder="Your Login Skype" required/>
+            </div>
+            <div class="promo">
+                <label for="promo">Promo</label>
+                <input type="text" name="promo" required id="promo" placeholder="Your promo">
+            </div>
+            <div class="continue">
+                <input type="submit" value="Continue ⇢" >
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+        <div class="last">
+            <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+        </div>
+    </footer>
+  </body>
+</html>
